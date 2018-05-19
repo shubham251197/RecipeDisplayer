@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/cardview_compat_inset_shadow"
+    android:requiresFadingEdge="horizontal"
+    android:fadingEdge="horizontal"
+    android:padding="@dimen/cardview_compat_inset_shadow">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/recipe_name"
+        android:text="hsubham"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        />
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
